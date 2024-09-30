@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+footer{
+    background-color: black;
+    padding-bottom: 30px;
+}
+header{
+    background-color: black;
+    padding-top: 20px;
+}
+/* header start  */
+
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.logo h1{
+    font-weight: 680;
+    font-size: 25px;
+    background: none;
+}
+.nav-bar{
+    background: none;
+}
+ul{
+    background: none;
+    margin-bottom: 0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+    background: none;
+    font-size: 16px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 650;
+    padding: 10px 10px;
+    background: none;
+}
+li a:hover{
+    padding: 5px 10px;
+    transition: 100ms ease-in-out; 
+    font-weight: 650; 
+    font-family: cursive;
+
+}
+
+.button{
+    padding-bottom: 16px;
+}
+.primary-button{
+    margin-right: 25px;
+    border: none;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.82);
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.primary-button a{
+    text-decoration:none;
+    background: none;
+    font-weight: 620;
+    color: white;  
+}
+.primary-button a:hover{
+    transition: 100ms ease-in-out; 
+    color: white;
+    font-weight: 650;
+    font-family: cursive;
+}
+.button a{
+    background: none;
+}
+.button i{
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: brown;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+/* header end  */
+/* banner section start  */
+.banner-main{
+    display:flex ;
+    justify-content: space-between;
+    align-items:flex-start;
+  gap: 6px;
+}
+.first-image{
+    height: 540px;
+    position: relative;
+    width: 55%;
+    height: 680px;
+}
+.first-image h3{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background: none;
+    font-weight: 650;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 15px;
+    font-size: 21px;
+    border-radius: 25px;
+    
+}
+.first-image img{
+   width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 20px;
+    position: absolute;
+    top: 0%;
+    background: none;
+}
+.headings{
+    border-radius: 20px;
+   width: 42%;
+   height: 680px;
+   padding: 10px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content:space-between;
+   background-color: rgba(128, 128, 128, 0.293);
+}
+.headings .secondary-heading{
+    font-size: 65px;
+    font-weight: 700;
+}
+/* banner section end  */
+/* product section start  */
+.product-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.first-card{
+    background-color: orangered !important;
+}
+.heading-first h1{
+    width: 100%;
+}
+.card .first-items{
+    width: 100%;
+}
+.card-counter{
+    color: white;
+}
+.second-card{
+    background-color: blue !important;
+}
+.third-card{
+    background-color:purple !important;
+}
+.card-counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.ARROW {
+    font-size: 33px;
+   padding: 0px 15px;
+   background-color: white;
+   color: black;
+   height: 59px;
+    border-radius: 50%;
+}
+
+/* product section end  */
+ /* discover banner start  */
+ marquee{
+    background-color: rgba(128, 128, 128, 0.344);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+ }
+
+ .headings-second{
+    border-radius: 20px;
+   width: 42%;
+   height: 680px;
+   padding: 10px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content:space-between;
+   background-color: rgba(128, 128, 128, 0.364);
+}
+.button-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.secondary-button{
+    padding: 5px 10px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+}
+.secondary-button{
+    padding: 5px 10px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+}
+.secondary-button a{
+    color: white;
+    text-decoration: none;
+}
+.secondary-button a:hover{
+    font-family: cursive;
+    font-size: 14px;
+}
+.underline{
+    border-bottom: 4px solid brown;
+
+}
+.icons-I i{
+    font-size: 40px;
+    margin-right: 40px;
+}
+ /* discover banner end  */
+ /* collaboration section start  */
+.collab-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}  
+.Pre-order h3{
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 30px;
+} 
+.image-II{
+    position: relative;
+}
+.position{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+.order h2{
+    font-size: 50px;
+    font-weight: 650;
+    font-family: "Bebas Neue", sans-serif;
+}
+.image-II img{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 20px;
+}
+.colab-1{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    
+}
+.colab-2{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+ /* collaboration section end  */
+ /* shopping section start  */
+.shopping-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button-first {
+    background-color: white;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.button-first .btn3 a{
+    color: black;
+}
+.button-first .btn3 a:hover{
+    transition: 100ms ease-in-out; 
+    color: black;
+    font-weight: 600;
+}
+ .Third-button{
+    border: 2px solid white;
+    background: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.Third-button a{
+    text-decoration:none;
+    font-weight: 600;
+    color: white;  
+}
+.Third-button a:hover{
+    transition: 100ms ease-in-out; 
+    color: white;
+    font-weight: 600;
+}
+.shopping-secondary{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+.shopping-third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+.image {
+    width: 270px;
+    background-color: rgba(128, 128, 128, 0.316);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.image img {
+    width: 100%;
+   height: 270px;
+   object-fit: contain;
+  
+}
+.dis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 20px;
+}
+.dis h3{
+    font-size: 21px;
+    font-weight: 550;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+}
+.dis p{
+    font-size: 21px;
+    font-weight: 550;
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(165, 42, 42);
+}
+.MORE-button{
+    text-align: center;
+    margin-top: 25px;
+}
+.btn4{
+   width: 100%;
+   padding: 20px 0;
+   border-radius: 20px;
+   background-color: rgba(0, 0, 255, 0.767);
+   font-size: 25px;
+   color: white;
+   font-weight: 650;
+}
+.btn4 a{
+    color: white;
+    text-decoration: none;
+}
+.btn4:hover{
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 255, 0.4);
+    font-size: 25px;
+    color: white;
+    font-weight: 650;
+ }
+ /* shopping section end  */
+ /* offer section start  */
+ .offer-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 20px; 
+    gap: 20px;
+   
+ 
+ }
+.image-III {
+    width: 900px; 
+    height: 450px;
+}
+.image-III img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.offer-secondary{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgba(128, 128, 128, 0.41);
+    width: 600px;
+    height: 410px;
+    /* padding-bottom: 20px; */
+    margin-bottom: 30px;
+    
+}
+.heading-IV {
+    width: 600px;
+    
+}
+.heading-IV p{
+    font-size: 17px;
+    width: 100%;
+    color: white;
+}
+.heading-III{
+    width: 300px;
+}
+.heading-III h1{
+    font-size: 40px;
+    font-weight: 700;
+    width: 300px;
+    margin-bottom: 50px;
+    color: white;
+}
+ /* offer section end  */
+ /* search section start  */
+.search-bar-main{
+    text-align: center;
+}
+.notified-heading h1{
+    color: white;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.notified-heading span{
+    color: brown;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.notified-search-bar{   
+    width: 73%;
+    background-color:white;
+    padding: 1px 0;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-left: 13%;
+    
+}
+.notified-search-bar input{
+    width: 73%;
+    padding: 16px 30px;
+   margin-right:12%;
+    border-radius: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    
+}
+.notified-search-bar input::placeholder{
+    color: gray;
+    font-size: 18px;
+}
+.notified-search-bar .btn5{
+    border-radius:20px;
+    border: none;
+    margin-right:10px;
+    background-color: rgba(0, 0, 255, 0.449);
+    padding: 10px 29px;
+    color: white;
+}
+ /* search section end  */
+ /* footer start  */
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-right-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.footer-right-up h5{
+    color: rgba(255, 255, 255, 0.737);
+}
+.footer-right-up h4{
+    color: rgba(255, 255, 255, 0.737);
+}
+.footer-right-up p{
+    color:gray;
+}
+
+.footer-right{
+    padding: 20px 80px ;
+    border-radius: 20px;
+     background-color: rgba(128, 128, 128, 0.425);
+     color: rgba(128, 128, 128, 0.963);
+}
+
+.icons-II{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(128, 128, 128, 0.46);
+    padding: 7px 50px;
+    border-radius: 20px;
+}
+.icons-II i{
+    margin-top: 10px;
+    font-size: 28px;
+    color: white;
+    border: 2px solid white;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 50%;
+}
+.footer-heading{
+    margin-right: 50px;
+}
+.footer-Resources{
+    width: 100%;
+}
+.copyright{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+ /* footer end  */

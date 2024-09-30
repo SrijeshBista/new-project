@@ -1,0 +1,39 @@
+
+@media (max-width: 916px) { 
+    .bold-heading h1{
+        
+        font-size: 55px;
+        
+    }
+    .bold-heading h1 img{
+        width: calc(100% / 2 -20px);
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .bold-heading h1 span{
+        color: brown;
+    }
+    .bold-heading h1{
+       width: calc(100% / 3 -20px);
+        font-size: 45px;
+    }
+    .heading-first h1{
+
+        font-size: 30px;
+    }
+    .card-description{
+        font-size: 15px;
+    }
+    .card-counter h5{
+        font-size: 17px;
+    }
+    .ARROW {
+        font-size: 25px;
+        padding: 10px;
+        width: 45px;
+        height: 55px;
+        
+    }
+    
+}
